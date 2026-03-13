@@ -9,3 +9,6 @@
 
 ; Map Super + / to Alt + Space (Flow Launcher)
 #/::Send("!{Space}")
+
+; Super + 5 to maximise a window
+#5::Send("#{Up}")

@@ -18,7 +18,7 @@
 #y:: {
   Loop 4 {
     Send("#^{Left}")
-    Sleep 10
+    Sleep 20
   }
 }
 
@@ -27,7 +27,7 @@
 #u:: {
   Loop 4 {
     Send("#^{Left}")
-    Sleep 10
+    Sleep 20
   }
   Send("#^{Right}")
 }
@@ -37,11 +37,11 @@
 #i:: {
   Loop 4 {
     Send("#^{Left}")
-    Sleep 10
+    Sleep 20
   }
   Loop 2 {
     Send("#^{Right}")
-    Sleep 10
+    Sleep 20
   }
 }
 
@@ -50,7 +50,7 @@
 #o:: {
   Loop 4 {
     Send("#^{Right}")
-    Sleep 10
+    Sleep 20
   }
   Send("#^{Left}")
 }
@@ -60,6 +60,6 @@
 #p:: {
   Loop 4 {
     Send("#^{Right}")
-    Sleep 10
+    Sleep 20
   }
 }

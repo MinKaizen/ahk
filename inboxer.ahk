@@ -1,7 +1,7 @@
 #Requires AutoHotkey v2.0
 
 ; Set your file path here
-LogFile := "C:\Users\" A_UserName "\Documents\QuickLog.txt"
+LogFile := "C:\Users\" A_UserName "\dev\obsidian.core\Inbox.md"
 
 ; Press Ctrl + Alt + L to trigger
 #;:: {
@@ -14,8 +14,5 @@ LogFile := "C:\Users\" A_UserName "\Documents\QuickLog.txt"
 
         ; --- Run your extra scripting here ---
         ; Example: Run("powershell.exe -Command Write-Host 'Done!'")
-
-        ; Optional 'Success' sound
-        SoundBeep(750, 100)
     }
 }
